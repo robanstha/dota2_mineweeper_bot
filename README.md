@@ -37,6 +37,6 @@ You can run it from source code with Python, or execute the compiled binary.
 
 ## Notes
 - The bot will behave unexpectedly when "6" appears on the board. Its better to stop it, resolve all tiles around 6 and continue the bot.
-- In case of "board not detected" messages and bot not working, try changing monitor resolution to 1920 x 1080.
-- The bot will not work with HDR enabled. 
+- In case of "board not detected" messages and bot not working, try changing monitor resolution in Windows settings to 1920 x 1080 and then setting Dota 2 resolution to "display native". 
+- The bot will not work with HDR or other color filters enabled. 
 - Improvements to the bot via PRs are welcome!
