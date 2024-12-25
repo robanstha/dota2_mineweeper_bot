@@ -4,7 +4,7 @@ import numpy as np
 from skimage.metrics import structural_similarity as ssim
 
 # Constants
-SSIM_THRESHOLD = 0 # SSIM threshold to consider two images as identical
+SSIM_THRESHOLD = 0.4 # SSIM threshold to consider two images as identical
 IMAGE_DIR = "images"
 BOARD_SIZES = [(9, 9), (11, 12), (13, 15), (14, 18), (16, 20)]
 BOARD_MINES = [10, 19, 32, 47, 66]
